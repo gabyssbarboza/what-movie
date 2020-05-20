@@ -5,28 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What movie should I have to watch?</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Timmana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   
 </head>
 <body>
+
+   
     <div id="container-all">
-        <h2>Movies to watch today</h2>
-        <div class="wrapper">
+        <h2>WHAT SHOULD I WATCH TODAY?</h2>
+        <button id="btn-start">Click me</br>📽️📽️📽️</button>
+        <div id="myStartAll" class="wrapper hidden">
             <div class="wrapper-left">
-                <img src="" id="movieCover">
+                <img src="https://image.freepik.com/free-vector/cinema-design_24911-31142.jpg" id="movieCover">
                     
                 
-                <div id="movieTitle">
-                    <h1 id="titulos"></h1>
-                </div>
-               
+                
             </div>
             <div class="wrapper-right">              
+                        <div id="movieTitle">
+                            <h1 id="titulos"></h1>
+                        </div>
                 <div id="movieSinopse">
                     <p id="moviePlot"></p>
+                    <p id="movieGenrer"></p>
                 </div>
             </div>
         </div>
-        <button id="btn">enviar</button>
+        <button class="hidden" id="btn">LET'S GO</button>
     </div>
    
 
