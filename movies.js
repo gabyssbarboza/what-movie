@@ -489,6 +489,31 @@ var indexDois = 0;
 
 function myTeste(){
 
+<<<<<<< Updated upstream
+=======
+mystart.addEventListener('click', startAll);
+
+function startAll(){
+
+
+const tudo = document.getElementById('myStartAll');
+const btnMovie = document.getElementById('btn');
+const removeStartButton = document.getElementById('btn-start');
+
+
+tudo.classList.remove('hidden');
+btnMovie.classList.remove('hidden');
+removeStartButton.classList.add('hidden')
+
+
+const titleStart = document.querySelector('h2');
+titleStart.classList.remove('topTitle');
+
+
+
+
+}
+>>>>>>> Stashed changes
 
 
    

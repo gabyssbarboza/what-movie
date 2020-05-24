@@ -56,9 +56,19 @@ body {
 
 #movieCover{
     background-color: rgb(192, 192, 192);
+<<<<<<< Updated upstream
     width: 200px;
     height: 200px;
 }
+=======
+    width: 300px;
+    height: 295px;
+    border-radius: 50%;
+}
+
+
+
+>>>>>>> Stashed changes
 
 
 #movieTitle{
@@ -68,9 +78,27 @@ body {
 }
 
 #movieSinopse{
+<<<<<<< Updated upstream
     border: 10px solid pink;
     width: 200px;
     height: 20px;
+=======
+    
+    font-size: 19px;
+    width: 80%;
+    height: 200px;
+>>>>>>> Stashed changes
+}
+
+#moviePlot {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+#movieGenrer {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(100, 100, 100);
+    text-align: center;
 }
 
 .hidden {
@@ -87,9 +115,128 @@ body {
     border: none;
 
 
+<<<<<<< Updated upstream
 }
 
 img {
     width: 100%;
     height: 100%;;
 }
+=======
+h2.topTitle {
+    position: absolute;
+    top: 35%;
+ 
+}
+
+
+#btn-start {
+    color: rgb(100, 100, 100);
+    width: 152px;
+    height: 55px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid rgb(37, 37, 37);
+    position: absolute;
+    top: 50%;
+    
+}
+
+
+@keyframes show {
+    from{
+      opacity: 0;
+      transform: translate3d(-30px, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+
+/************* Media Queries *****************/
+
+@media (max-width: 700px)   {
+
+    h2.topTitle {
+        text-align: center;
+        margin-top: 30%;
+        position: relative;
+        top: 0;
+    }
+
+    h2 {
+        width: 80%;
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .wrapper  {
+        width: 80%;
+        margin-top: 10px;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        animation: show .5s forwards;
+    
+    }
+    
+.wrapper.hidden {
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 0;
+    display: flex;
+    display: none!important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: show .5s forwards;
+
+}
+
+#myStartAll .hidden{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#movieSinopse{
+    height: auto;
+    font-size: 19px;
+    width: 80%;
+    
+}
+
+.wrapper-right {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#movieTitle {
+    width: 100%;
+    /* margin-top: 10px; */
+    text-align: center;
+    /* height: 100px; */
+    color: white;
+    height: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+}
+
+    
+}
+
+>>>>>>> Stashed changes
